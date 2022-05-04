@@ -1,0 +1,14 @@
+{
+  "name": "ords",
+  "author": "Éverton M. Vieira",
+  "license": "LGPL-3.0-only",
+  "version": "0.1.0",
+  "main": "./main.js",
+  "types": "./main.d.ts",
+  "scripts": {
+    "test": "node main.js",
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "lint": "tslint --project ."
+  }
+}
